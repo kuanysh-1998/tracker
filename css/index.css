@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    display: block;
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #E5E9F2;
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.nav {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #18191F;
+
+   
+}
+
+.nav-link {
+    margin-right: 32px;
+    color: #18191F;
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.appstore { 
+    display: flex;
+    margin-left: auto;
+}
+
+.appstore-first {
+    margin-right: 12px;
+}
+
+.main {
+
+
+}
+
+.main-container {
+    padding-top: 197px;
+    padding-bottom: 197px;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-description {
+    width: 540px;
+}
+
+.main-description-big {
+    width: 540px;
+    height: 196px;
+    font-weight: 800;
+    font-size: 72px;
+    color: #18191F;
+    margin-bottom: 16px;
+}
+
+.main-description p {
+    font-size: 18px;
+    color: #18191F;
+    margin-bottom: 32px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    width: 284px;
+    height: 62px;
+    background: #8C30F5;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    color: chartreuse;
+    opacity: 0.8;
+}
+
+.footer {
+    display: flex;
+    color: #D9DBE1;
+    background: #0B0D17;
+    height: 72px;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-year p {
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.footer-social { 
+    display: flex;
+}
+
+.social-icons {
+    margin-right: 16px;
+}
+
+.social-icons:last-child {
+
+    margin-right: 0;
+}
+
+
